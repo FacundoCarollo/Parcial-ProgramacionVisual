@@ -1049,7 +1049,7 @@ tr:hover td {
     padding: 0;
   }
   .main img {
-    width: 50vw;
+    width: 45vw;
     height: 100%;
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
@@ -1061,7 +1061,7 @@ tr:hover td {
     -ms-grid-column: 5;
     -ms-grid-column-span: 5;
     grid-column: 5/10;
-    padding: 3em;
+    padding: 2em;
     height: 100%;
   }
   .navbar-toggler:focus,
