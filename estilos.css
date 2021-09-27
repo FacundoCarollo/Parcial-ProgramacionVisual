@@ -1061,7 +1061,7 @@ tr:hover td {
     -ms-grid-column: 5;
     -ms-grid-column-span: 5;
     grid-column: 5/10;
-    padding: 2em;
+    padding: 3em;
     height: 100%;
   }
   .navbar-toggler:focus,
