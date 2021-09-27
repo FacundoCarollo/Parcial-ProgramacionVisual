@@ -148,7 +148,7 @@ h1{
         width: 100%;
         height: 100%;
     grid-column: 1/5;
-    border: 1px solid red;
+
     object-fit: cover;
         
 }
@@ -224,6 +224,7 @@ h1{
 .carousel img{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 .carousel-info{
@@ -237,10 +238,10 @@ h1{
   
     display:flex;
     align-items: flex-start;
-    padding-top: 6em ;
+    padding-top: 3em ;
     justify-content: center;
     color: rgb(92, 219, 170);
-    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 21px;
     top: 0;
 }
 
@@ -255,7 +256,7 @@ h1{
     color: white;
     top: 0;
     padding-bottom: 10em;
-    border-radius:20px;
+    border-radius: 21px;
 }
 
 
@@ -263,6 +264,8 @@ h1{
 .carousel-info:hover{
      transition: 0.4 ease;
     opacity: 1;
+   
+
    
 }
 
@@ -808,8 +811,8 @@ tr:hover td{
     .main img{
         width: 100vw;
         height: 100%;
-    grid-column: 1/5;
-    border: 1px solid red;
+    grid-column: 3/5;
+
     object-fit: cover;
     }
     .carousel-inner{
@@ -817,7 +820,7 @@ tr:hover td{
     }
 
     .info-nos{
-        grid-column: 5/10;
+        grid-column: 6/10;
         padding: 3em;
         height: 100%;
 }
@@ -851,12 +854,12 @@ tr:hover td{
 }
 
 
-    
+
 
 @media screen and (max-width: 599px) {
     .h-content{
         width: 40vw;
-        border-top: 1px solid rgb(143, 30, 248);
+
         margin-bottom: 7em;
         margin-top: 9em;
         padding-top: 20em;
@@ -893,7 +896,8 @@ position: absolute;
 
 display:flex;
 align-items: flex-start;
-padding-top: 2em ;
+padding-top: 0em ;
+
 justify-content: center;
 color: rgb(92, 219, 170);
 background-color: rgba(0, 0, 0, 0.24);
@@ -911,7 +915,7 @@ justify-content: center;
 color: white;
 top: 0;
 padding-left: 2em;
-padding-top: 3em;
+padding-top: 4em;
 padding-bottom: 0em;
 }
 
@@ -932,7 +936,7 @@ padding-bottom: 0em;
 .img-h{
     
     width:100%;
-    border-top: 1px solid red;
+   
     padding: 0;
     padding-bottom: 5em;
     padding-left: 2em;
@@ -962,7 +966,7 @@ padding-bottom: 0em;
         width: 100%;
         height: 100%;
     grid-column: 1/5;
-    border: 1px solid red;
+  
     object-fit: cover;
       
 }
@@ -1019,25 +1023,24 @@ padding-bottom: 0em;
        margin: 0;
        padding: 0;
     }
+
+    .carousel{
+        margin-top: 0em;
+      }
 }
 
 @media screen and (max-width: 600px) {
     .h-content{
         width: 40vw;
-        border-top: 1px solid rgb(143, 30, 248);
+        
         margin-bottom: 5em;
         padding-top: 18em;
     }   
-    .h-content h1{
-      font-size: 25px;
-    }
-    .h-content p{
-       font-size: 15px;
-     }      
+        
    .img-h{
        
        width:40vw;
-       border-top: 1px solid red;
+  
        padding: 0;
        padding-bottom: 6em;
        padding-left: 0;
@@ -1075,6 +1078,9 @@ padding-bottom: 0em;
         height: 100%;
         border-radius: 20px;
     }
+    .carousel{
+        margin-top: 0em;
+      }
    
        
 }
@@ -1091,6 +1097,9 @@ padding-bottom: 0em;
            padding-top:4em;
     
         }
+        .carousel{
+            margin-top: 0em;
+          }
     
 }
 
@@ -1108,15 +1117,20 @@ padding-bottom: 0em;
            font-size: 10px;
     
         }
-    
+        .carousel{
+            margin-top: 0em;
+          }
 }
 
 
 @media screen and (max-width: 375px) {
 
+    .carousel{
+        margin-top: 0em;
+      }
     .carousel-inner h3{
       font-size: 20px;
-      padding-top:1em;
+      padding-top:0.2em;
 
     
     }
@@ -1127,6 +1141,42 @@ padding-bottom: 0em;
     
         }
     
+}
+
+@media screen and (max-width: 1650px) {
+
+    .carousel{
+      margin-top: -6em;
+    }
+    .carousel-inner h3{
+        font-size: 20px;
+        padding-top:4em;
+  
+      
+      }
+          .carousel-info p{
+             
+             padding-top:3em;
+             font-size:13px;
+      
+          }
+}
+
+
+
+@media screen and (max-width: 570px) {
+    .carousel-inner h3{
+        font-size: 20px;
+        padding-top:1em;
+  
+      
+      }
+          .carousel-info p{
+             
+             padding-top:3em;
+             font-size:13px;
+      
+          }
 }
 
 @media screen and (max-width: 498px) {
@@ -1168,6 +1218,10 @@ padding-bottom: 0em;
         border-radius: 20px;
     }
 
+    .carousel{
+        margin-top: 0em;
+      }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -1187,6 +1241,8 @@ padding-bottom: 0em;
      .carousel-inner{
         border-radius: 20px;
     }
+
+    
 }
 
 

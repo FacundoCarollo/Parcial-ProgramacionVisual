@@ -177,7 +177,6 @@ h1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1/5;
-  border: 1px solid red;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -258,6 +257,7 @@ h1 {
 .carousel img {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
 }
 
 .carousel-info {
@@ -274,12 +274,12 @@ h1 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding-top: 6em;
+  padding-top: 3em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   color: #5cdbaa;
-  background-color: rgba(0, 0, 0, 0.24);
+  border-radius: 21px;
   top: 0;
 }
 
@@ -300,7 +300,7 @@ h1 {
   color: white;
   top: 0;
   padding-bottom: 10em;
-  border-radius: 20px;
+  border-radius: 21px;
 }
 
 .carousel-info:hover {
@@ -899,10 +899,9 @@ tr:hover td {
   .main img {
     width: 100vw;
     height: 100%;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 4;
-    grid-column: 1/5;
-    border: 1px solid red;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -910,9 +909,9 @@ tr:hover td {
     border-radius: 20px;
   }
   .info-nos {
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 5;
-    grid-column: 5/10;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 4;
+    grid-column: 6/10;
     padding: 3em;
     height: 100%;
   }
@@ -955,7 +954,6 @@ tr:hover td {
 @media screen and (max-width: 599px) {
   .h-content {
     width: 40vw;
-    border-top: 1px solid #8f1ef8;
     margin-bottom: 7em;
     margin-top: 9em;
     padding-top: 20em;
@@ -992,7 +990,7 @@ tr:hover td {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding-top: 2em;
+    padding-top: 0em;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1017,7 +1015,7 @@ tr:hover td {
     color: white;
     top: 0;
     padding-left: 2em;
-    padding-top: 3em;
+    padding-top: 4em;
     padding-bottom: 0em;
   }
 }
@@ -1030,7 +1028,6 @@ tr:hover td {
   }
   .img-h {
     width: 100%;
-    border-top: 1px solid red;
     padding: 0;
     padding-bottom: 5em;
     padding-left: 2em;
@@ -1059,7 +1056,6 @@ tr:hover td {
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
     grid-column: 1/5;
-    border: 1px solid red;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1110,24 +1106,19 @@ tr:hover td {
     margin: 0;
     padding: 0;
   }
+  .carousel {
+    margin-top: 0em;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .h-content {
     width: 40vw;
-    border-top: 1px solid #8f1ef8;
     margin-bottom: 5em;
     padding-top: 18em;
   }
-  .h-content h1 {
-    font-size: 25px;
-  }
-  .h-content p {
-    font-size: 15px;
-  }
   .img-h {
     width: 40vw;
-    border-top: 1px solid red;
     padding: 0;
     padding-bottom: 6em;
     padding-left: 0;
@@ -1164,6 +1155,9 @@ tr:hover td {
     height: 100%;
     border-radius: 20px;
   }
+  .carousel {
+    margin-top: 0em;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -1172,6 +1166,9 @@ tr:hover td {
   }
   .carousel-info p {
     padding-top: 4em;
+  }
+  .carousel {
+    margin-top: 0em;
   }
 }
 
@@ -1183,9 +1180,40 @@ tr:hover td {
     padding-top: 1em;
     font-size: 10px;
   }
+  .carousel {
+    margin-top: 0em;
+  }
 }
 
 @media screen and (max-width: 375px) {
+  .carousel {
+    margin-top: 0em;
+  }
+  .carousel-inner h3 {
+    font-size: 20px;
+    padding-top: 0.2em;
+  }
+  .carousel-info p {
+    padding-top: 3em;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .carousel {
+    margin-top: -6em;
+  }
+  .carousel-inner h3 {
+    font-size: 20px;
+    padding-top: 4em;
+  }
+  .carousel-info p {
+    padding-top: 3em;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 570px) {
   .carousel-inner h3 {
     font-size: 20px;
     padding-top: 1em;
@@ -1228,6 +1256,9 @@ tr:hover td {
   }
   .carousel-inner {
     border-radius: 20px;
+  }
+  .carousel {
+    margin-top: 0em;
   }
 }
 
