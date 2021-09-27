@@ -149,7 +149,7 @@ h1{
         height: 100%;
     grid-column: 1/5;
 
-    object-fit: cover;
+  
         
 }
 
@@ -812,8 +812,9 @@ tr:hover td{
         width: 100vw;
         height: 100%;
     grid-column: 3/5;
-
     object-fit: cover;
+
+  
     }
     .carousel-inner{
         border-radius: 20px;
@@ -963,15 +964,16 @@ padding-bottom: 0em;
 }
 
 .main img{
-        width: 100%;
+        width: 50vw;
         height: 100%;
     grid-column: 1/5;
-  
     object-fit: cover;
+   
       
 }
 
 .info-nos{
+    
     grid-column: 5/10;
     padding: 2em;
     height: 100%;
