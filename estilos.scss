@@ -1,6 +1,6 @@
 @import url(./node_modules/bootstrap/scss/bootstrap.scss);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Josefin+Sans&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
 html { 
     -ms-overflow-style: none;
@@ -102,6 +102,7 @@ h1{
     border: none;
     background-color: #35b680 ;
     color: white;
+    font-family: 'Poppins', sans-serif;
        
 }
 .btn-nos:hover{
@@ -177,6 +178,8 @@ h1{
     
 .info-nos p{
         font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
         margin-bottom: 2em;
      
 }
@@ -235,7 +238,8 @@ h1{
     width: 100%;
     height: 100%;
     position: absolute;
-  
+    font-family: 'Cabin', sans-serif;
+    
     display:flex;
     align-items: flex-start;
     padding-top: 3em ;
@@ -257,15 +261,14 @@ h1{
     top: 0;
     padding-bottom: 10em;
     border-radius: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
 }
-
-
 
 .carousel-info:hover{
      transition: 0.4 ease;
     opacity: 1;
-   
-
    
 }
 
@@ -296,11 +299,14 @@ table{
 	padding: 20px;
     background-color:#114f8d;
     border-bottom: 2px solid white; 
+    font-family: 'Josefin Sans', sans-serif;
  
 }
 th{
     background-color:#35b680;
-    padding: 20px
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 thead{
@@ -361,6 +367,7 @@ tr:hover td{
 }
 #form label{
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 #form input{
     width: 40vw;
@@ -382,6 +389,7 @@ tr:hover td{
      border:none;
     background-color: #35b680;
     border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn:hover{
@@ -426,6 +434,8 @@ tr:hover td{
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 
 }
 .redes{
@@ -461,6 +471,7 @@ tr:hover td{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+  
 }
 .footer-derechos span{
    
@@ -649,6 +660,8 @@ tr:hover td{
         top: 0;
         padding-bottom: 0em;
         padding-left: 3em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
     }
 
 
@@ -713,6 +726,8 @@ tr:hover td{
         justify-content: center;
         color: white;
         top: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
         
     }
 
@@ -744,6 +759,8 @@ tr:hover td{
         top: 0;
         padding-bottom: 0em;
         padding-top: 5em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
     }
     .carousel-inner{
         border-radius: 20px;
@@ -850,6 +867,8 @@ tr:hover td{
     justify-content: center;
     color: white;
     top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
         
 }
